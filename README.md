@@ -12,9 +12,17 @@ pip install openai
 pip install pysrt
 pip install backoff
 pip install fire
+pip install requests
+pip install bs4
 ```
 
-#### 2.替换generate.sh脚本的资源URL
-![更新url](assets/changurl.jpeg)
-#### 3.替换translateSrt.py脚本里的OpenAI的apikey
-![换apikey](assets/apikey.jpg)
+#### 2.运行以下脚本,参数1是WWDCURL，参数2是OpenAI的apikey
+
+```
+python3 main.py https://developer.apple.com/wwdc23/xxxx "sk-xxx”
+```
+
+## 注意事项
+##### 1.因为下载和翻译需要依赖网络，耗时偏长点，请耐心等待
+##### 2.如果遇到以下问题，请重试脚本
+![502](assets/openai502.jpg)
