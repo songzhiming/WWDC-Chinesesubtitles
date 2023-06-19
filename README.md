@@ -1,0 +1,2 @@
+# WWDC-Chinesesubtitles
+基于FFmpeg和Chatgpt给WWDC视频生成中文字幕
